@@ -61,4 +61,4 @@ async function main(): Promise<void> {
 
 main();
 
-export { readFileLinesAsync };
+export {readFileLinesAsync};
