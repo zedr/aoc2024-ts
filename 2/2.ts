@@ -88,6 +88,6 @@ async function main(): Promise<void> {
     console.log(safeReportCount);
 }
 
-main()
+if (import.meta.main) main();
 
 export {numberStringToArray, isSafe, checkStatus, Status, LINE_MATCHER_RXP};

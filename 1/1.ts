@@ -59,6 +59,6 @@ async function main(): Promise<void> {
     console.log(acc);
 }
 
-main();
+if (import.meta.main) main();
 
 export {readFileLinesAsync};
